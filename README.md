@@ -15,8 +15,8 @@ The auto-config script has only been tested in Arch Linux.
 - Enables dark-compact mode
 
 ## References
-- https://github.com/ghacksuserjs/ghacks-user.js/
 - https://duckduckgo.com/lite
+- https://github.com/ghacksuserjs/ghacks-user.js/
 - https://github.com/EFForg/https-everywhere
 - https://github.com/gorhill/uBlock
 - https://github.com/hackademix/noscript
