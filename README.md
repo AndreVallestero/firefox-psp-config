@@ -11,8 +11,14 @@ The auto-config script has only been tested in Arch Linux.
 - Installs Https Everywhere
 - Installs Unblock Origin
 - Installs NoScript
+- Installs h264ify to improve performance and reduce battery usage
 - Enables dark-compact mode
 
 ## References
-
+- https://github.com/ghacksuserjs/ghacks-user.js/
+- https://duckduckgo.com/lite
+- https://github.com/EFForg/https-everywhere
+- https://github.com/gorhill/uBlock
+- https://github.com/hackademix/noscript
+- https://github.com/erkserkserks/h264ify-firefox
 - https://unix.stackexchange.com/questions/326897
