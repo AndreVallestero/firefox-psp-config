@@ -4,7 +4,6 @@ A firefox config optimized for privacy, security, and performance at the cost of
 The auto-config script has only been tested in Arch Linux.
 
 ## Features
-
 - Uses ghacks' user.js
 - Enables more privacy, security, and performance features in user.js
 - Sets DuckDuckGo Lite as the default search engine
@@ -22,3 +21,8 @@ The auto-config script has only been tested in Arch Linux.
 - https://github.com/hackademix/noscript
 - https://github.com/erkserkserks/h264ify-firefox
 - https://unix.stackexchange.com/questions/326897
+
+## TODO:
+- For malware protection reasons, search engine and theme can't be set with user.js
+	- Use ESR to set DuckDuckGo Lite as default search engine
+	- Use ESR to set Dark Compact theme as default

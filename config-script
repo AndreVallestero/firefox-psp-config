@@ -11,6 +11,10 @@ cp -fr ghacks-user.js/user.js $PROF_DIR/
 cat custom-user.js >> $PROF_DIR/user.js
 
 echo 'Installing config to firefox'
+dir_count=0
 for i in ~/.mozilla/firefox/*.default-release/; do
+	((++i))
 	cp -fr $PROF_DIR/* $i
 done
+
+[ $dir_count -eq 0 ] && echo 'No FireFox directories were found. Was FireFox ran atleast once after install?' && exit 1
