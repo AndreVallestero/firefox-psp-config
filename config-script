@@ -18,3 +18,5 @@ for i in ~/.mozilla/firefox/*.default-release/; do
 done
 
 [ $dir_count -eq 0 ] && echo 'No FireFox directories were found. Was FireFox ran atleast once after install?' && exit 1
+
+echo 'FireFox successfully configured however theme and search engine must be set manually. See README for more info.'
