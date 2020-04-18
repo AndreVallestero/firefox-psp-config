@@ -2,6 +2,15 @@
 
 [ $(id -u) -eq 0 ] && echo 'This script should not be ran as root' && exit 1
 
-git clone https://github.com/ghacksuserjs/ghacks-user.js.git
-cp ghacks-user.js/user.js profile.default-release/
+PROF_DIR=profile.default-release
 
+git clone https://github.com/ghacksuserjs/ghacks-user.js.git
+
+echo 'Generating custom firefox config'
+cp -fr ghacks-user.js/user.js $PROF_DIR/
+cat custom-user.js >> $PROF_DIR/user.js
+
+echo 'Installing config to firefox'
+for i in ~/.mozilla/firefox/*.default-release/; do
+	cp -fr $PROF_DIR/* $i
+done
