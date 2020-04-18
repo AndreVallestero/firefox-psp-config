@@ -1,3 +1,4 @@
+// --- CUSTOM PSP USER PREFS ---
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
 user_pref("browser.contentblocking.category", "strict");
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);

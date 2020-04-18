@@ -2,4 +2,4 @@
 
 [ $(id -u) -eq 0 ] && echo 'This script should not be ran as root' && exit 1
 
-git clone https://github.com/ghacksuserjs/ghacks-user.js.git
+pacman -S firefox firefox-extensionn-https-everywhere firefox-ublock-origin firefox-noscript
