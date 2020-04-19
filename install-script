@@ -3,3 +3,5 @@
 [ $(id -u) -eq 0 ] && echo 'This script should not be ran as root' && exit 1
 
 sudo pacman -S firefox firefox-extension-https-everywhere firefox-ublock-origin firefox-noscript
+
+echo 'Firefox and core extensions have been installed, run firefox once before running the configure script'
