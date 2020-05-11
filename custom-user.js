@@ -17,7 +17,7 @@ user_pref("startup.homepage_welcome_url", "about:blank");
 user_pref("startup.homepage_welcome_url.additional", "about:blank");
 user_pref("startup.homepage_override_url", "about:blank");
 user_pref("browser.tabs.drawInTitlebar", true);
-user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"urlbar-container\",\"downloads-button\",\"https-everywhere-eff_eff_org-browser-action\",\"ublock0_raymondhill_net-browser-action\",\"_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"PersonalToolbar\":[\"personal-bookmarks\"]},\"seen\":[\"https-everywhere-eff_eff_org-browser-action\",\"ublock0_raymondhill_net-browser-action\",\"_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action\",\"developer-button\"],\"dirtyAreaCache\":[\"nav-bar\",\"toolbar-menubar\",\"TabsToolbar\",\"PersonalToolbar\"],\"currentVersion\":16,\"newElementCount\":2}");
+user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"urlbar-container\",\"downloads-button\"]});
 user_pref("browser.uidensity", 1);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
