@@ -4,10 +4,8 @@
 
 PROF_DIR=profile.default-release
 
-git clone https://github.com/ghacksuserjs/ghacks-user.js.git
-
 echo 'Generating custom firefox config'
-cp -fr ghacks-user.js/user.js $PROF_DIR/
+wget https://raw.githubusercontent.com/ghacksuserjs/ghacks-user.js/master/user.js $PROF_DIR/
 cat custom-user.js >> $PROF_DIR/user.js
 
 echo 'Installing config to firefox'
