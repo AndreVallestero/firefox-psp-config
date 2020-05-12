@@ -10,8 +10,8 @@ cat custom-user.js >> $PROF_DIR/user.js
 
 echo 'Installing config to firefox'
 dir_count=0
-for i in ~/.mozilla/firefox/*.default-release/; do
-	((++dir_count))
+for i in ~/.mozilla/firefox/*.default*/; do
+	dir_count=$((dir_count+1))
 	cp -fr $PROF_DIR/* $i
 done
 
